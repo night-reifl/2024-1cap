@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#join-btn{
+    color : #F75E29;
+    border : 1px solid #F75E29;
+}
+
+#join-btn:hover{
+    color : white;
+    background-color : #F75E29;
+}
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <display-name>게시판 프로젝트</display-name>
+    <welcome-file-list>
+        <welcome-file>list.jsp</welcome-file>
+    </welcome-file-list>
+    <listener>
+        <listener-class>com.board.controller.DeletePostsListener</listener-class>
+    </listener>
+</web-app>

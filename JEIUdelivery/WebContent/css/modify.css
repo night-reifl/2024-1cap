@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #f4f4f4, #e9ecef);
+}
+
+.post-title2 {
+    color: #444;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form2 {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+
+.comment-submit {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.comment-submit:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.menu-select {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.menu-select:focus {
+    border-color: #007bff;
+}
+
+input[type="hidden"] {
+    display: none;
+}
+
+.store-name, .closing-time, .delivery-fee, .bank-name, .account-number, .delivery-type, .max-people {
+    background: #ffffff;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.store-name {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ffbf008a;
+}
+
+.closing-time, .delivery-fee, .bank-name, .account-number, .delivery-type, .max-people {
+    font-size: 14px;
+    color: #666;
+}
+
+a.back-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a.back-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
